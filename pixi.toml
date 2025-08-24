@@ -1,0 +1,17 @@
+[project]
+authors = ["Christoph Schlumpf"]
+channels = ["conda-forge", "https://conda.modular.com/max-nightly/"]
+description = "An RGB version of 'Game of Live' in Mojo"
+name = "rgb-gol-mojo"
+platforms = ["osx-arm64", "linux-64", "linux-aarch64"]
+version = "0.1.0"
+
+[dependencies]
+mojo = "*"
+python = ">=3.11,<3.14"
+pygame = ">=2.6.1,<3"
+
+[tasks]
+life = "mojo run life.mojo"
+main = "mojo run life.mojo"
+test = "mojo test -I . test"
