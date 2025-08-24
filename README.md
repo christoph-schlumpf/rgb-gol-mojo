@@ -1,6 +1,6 @@
 # rgb-gol-mojo
 
-An RGB version of Conway's "Game of Live" in Mojo.
+An RGB version of Conway's "Game of Life" in Mojo.
 
 Red, green an blue cells life on a GOL grid and influence each other.
 
